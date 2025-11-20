@@ -4,14 +4,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/style.css">
     <meta charset="UTF-8">
     <title>Detalle de Receta</title>
 </head>
 <body>
-    <h1>Detalle de la Receta</h1>
     <c:if test="${empty mensaje}">
-        <h2>${nombre}</h2>
+        <h1>${nombre}</h1>
+        <h2>Ingredientes: </h2>
         <ul>
             <c:forEach var="i" items="${ingredientes}">
                 <li>${i}</li>

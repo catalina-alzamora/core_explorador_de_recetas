@@ -23,12 +23,14 @@ public class ControladorRecetas {
     }
 
     @GetMapping("/recetas")
+    // Lista de recetas
     public String obtenerTodasLasRecetas(Model modelo) {
         modelo.addAttribute("listaRecetas", listaRecetas);
         return "recetas.jsp";
     }
 
     @GetMapping("/recetas/{nombre}")
+    // Receta por nombre
     public String obtenerRecetaPorNombre(@PathVariable String nombre, Model modelo) {
 
     if (recetasConIngredientes.containsKey(nombre)) {

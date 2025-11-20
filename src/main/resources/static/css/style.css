@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+body {
+    background-color: #FCFAF4;
+    font-family: Calibri, sans serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F3D20;
+}
+
+h1 {
+    color: #8e3102;
+    font-size: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: #8e3102;
+    color: #FCFAF4;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+    width: 105px;
+}

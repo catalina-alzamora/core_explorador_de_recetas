@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/style.css">
     <meta charset="UTF-8">
     <title>Recetas</title>
 </head>
